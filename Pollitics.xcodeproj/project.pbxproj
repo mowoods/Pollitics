@@ -13,6 +13,7 @@
 		E520CA171A779641001E2E25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E520CA161A779641001E2E25 /* Images.xcassets */; };
 		E520CA1A1A779641001E2E25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E520CA181A779641001E2E25 /* LaunchScreen.xib */; };
 		E520CA261A779641001E2E25 /* PolliticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E520CA251A779641001E2E25 /* PolliticsTests.swift */; };
+		E520CA301A796C6E001E2E25 /* homesearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E520CA2F1A796C6E001E2E25 /* homesearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E520CA1F1A779641001E2E25 /* PolliticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolliticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E520CA241A779641001E2E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E520CA251A779641001E2E25 /* PolliticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolliticsTests.swift; sourceTree = "<group>"; };
+		E520CA2F1A796C6E001E2E25 /* homesearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homesearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				E520CA161A779641001E2E25 /* Images.xcassets */,
 				E520CA181A779641001E2E25 /* LaunchScreen.xib */,
 				E520CA0D1A779641001E2E25 /* Supporting Files */,
+				E520CA2F1A796C6E001E2E25 /* homesearchViewController.swift */,
 			);
 			path = Pollitics;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E520CA301A796C6E001E2E25 /* homesearchViewController.swift in Sources */,
 				E520CA121A779641001E2E25 /* ViewController.swift in Sources */,
 				E520CA101A779641001E2E25 /* AppDelegate.swift in Sources */,
 			);
